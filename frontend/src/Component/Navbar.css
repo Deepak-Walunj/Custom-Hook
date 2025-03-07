@@ -1,0 +1,28 @@
+/* Set the navbar to be fixed at the top-right corner */
+.navbar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    border-radius: 5px; /* Optional: for rounded corners */
+    width: auto; /* Ensure navbar width remains constant */
+    max-width: 250px; /* Optional: Set a maximum width to keep it consistent */
+}
+
+/* Style the links */
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px; /* Add padding to the links */
+}
+
+/* Hover effect for the links */
+.navbar a:hover {
+    color: #007bff;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}

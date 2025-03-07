@@ -1,0 +1,49 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    background-color: aliceblue;
+}
+
+.list_data_main{
+    list-style: lower-greek;
+    padding: 0;
+    color: black;
+    background-color: white;
+}
+
+.useFetch_heading{
+    text-align: center;
+    color: black;
+}
+
+.list_data {
+margin-bottom: 20px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: blanchedalmond;
+}
+
+.list_data h3 {
+margin-top: 0;
+margin-bottom: 10px;
+font-size: 25px;
+}
+
+.list_data strong {
+font-weight: bold;
+font-size: 18px;
+}
+
+.list_data p {
+margin: 5px 0;
+}
